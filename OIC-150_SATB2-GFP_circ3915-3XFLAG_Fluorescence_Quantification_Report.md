@@ -60,7 +60,7 @@ For 4-channel images the key is:
 |intensity_mean-2 | Green | 
 |intensity_mean-3 | DAPI |
 
-The blurred nuclei channel, separate scenes, and nuclei masks were all saved as tiff files. All measurements were saved as csv files and can be opened with Excel, R, Pandas, or another data frame software. Each tiff and csv are named after the parent image with the scene number appended to the end.
+The separate scenes and corresponding nuclei masks were all saved as tiff files. All measurements were saved as csv files and can be opened with Excel, R, Pandas, or another data frame software. Each tiff and csv are named after the parent image with the scene number appended to the end.
 
 ## Notes
 The nuclei touching the XY borders of the images should be excluded from the analysis as they are not fully representative of the expression. This will require visual inspection of the label images to identify which ones to exclude. 'skimage.segmentation.clear_border` can be used to automate this step, but most nuclei also touched the first or last z-slice and would therefore be removed as well.
