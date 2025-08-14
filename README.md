@@ -1,3 +1,3 @@
-# OIC-150_SATB2-GFP_circ3915-3XFLAG_Fluorescence_Quantification
- 
+# OIC-150 SATB2-GFP circ3915-3XFLAG Fluorescence Quantification
+
  Conda environment can be recreated with [yaml file](/CellPoseCLE.yaml)
